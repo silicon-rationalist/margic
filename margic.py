@@ -3,7 +3,7 @@ import json
 import google.generativeai as genai
 
 # --- CONFIGURE GEMINI ---
-API_KEY = "AIzaSyD9lieIajWzJcdFQpgGI4JOit1To7BpaAM"   # replace with your actual Gemini API key
+API_KEY = "api key"   # replace with your actual Gemini API key
 genai.configure(api_key=API_KEY)
 
 # --- INIT SESSION STATE ---
